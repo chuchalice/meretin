@@ -1,0 +1,117 @@
+.card {
+  border-radius: 24px;
+  height: auto;
+}
+.wrapper {
+  padding: 20px 24px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(21, 21, 21, 1),
+    rgba(43, 43, 43, 1)
+  );
+  border-radius: 24px;
+  min-height: 235px;
+}
+.btn {
+  border: none;
+  background: inherit;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+.pin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-pin__title {
+  padding: 4px 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  color: rgba(21, 21, 21, 0.7);
+  font-family: GT Eesti Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 16px;
+}
+
+.pin__title {
+  padding: 4px 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: GT Eesti Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  row-gap: 14px;
+}
+
+.img {
+  height: 72px;
+}
+.name {
+  color: white;
+  font-weight: 500;
+  border-bottom: solid 1px white;
+  padding-bottom: 5px;
+}
+.custom-name {
+  color: #151515;
+  font-weight: 500;
+  border-bottom: solid 1px #151515;
+  padding-bottom: 5px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-family: GT Eesti Pro Display;
+  font-style: normal;
+  font-weight: 400;
+}
+.custom-description {
+  color: rgba(21, 21, 21, 0.6);
+  font-size: 16px;
+  font-family: GT Eesti Pro Display;
+  font-style: normal;
+  font-weight: 400;
+}
+.custom-pocmon {
+  padding: 20px 24px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(21, 21, 21, 1),
+    rgba(43, 43, 43, 1)
+  );
+  border-radius: 24px;
+  min-height: 235px;
+}
+.custom-crypterra {
+  padding: 20px 24px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(58, 32, 56, 1),
+    rgba(105, 52, 54, 1)
+  );
+  border-radius: 24px;
+  min-height: 235px;
+}
+.custom-adev {
+  padding: 20px 24px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(219, 157, 218, 1),
+    rgba(129, 185, 231, 1)
+  );
+  border-radius: 24px;
+  min-height: 235px;
+}

@@ -1,0 +1,36 @@
+.dropdown {
+  position: relative;
+
+  &__menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 0.25rem);
+    opacity: 0;
+  }
+
+  &__menu.active {
+    opacity: 1;
+  }
+}
+
+.link {
+  display: flex;
+  font-size: 16px;
+  justify-content: flex-start;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  color: white;
+  cursor: pointer;
+  border: solid 1px;
+  padding: 8px 12px;
+  border-radius: 24px;
+  border: 2px solid #616161;
+  width: 276px;
+  background: #282828;
+}
+
+.dropdown > .link:focus + .dropdown__menu {
+  opacity: 1;
+}

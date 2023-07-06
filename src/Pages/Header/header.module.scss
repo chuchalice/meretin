@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  height: 70px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+.icon-wrapper {
+  margin-left: auto;
+  display: flex;
+  column-gap: 10px;
+}
+.nav-menu__li {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
