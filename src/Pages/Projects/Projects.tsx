@@ -4,9 +4,10 @@ import Pocmon from "../../assets/pocmon.png";
 import Crypterra from "../../assets/crypterra.png";
 import Adev from "../../assets/adev.png";
 import { ICard } from "../../Interface/Interface";
+import { useState } from "react";
 
 const Projects = () => {
-  const cards = [
+  const [cards, setCards] = useState([
     {
       pin: "LATEST",
       img: Pocmon,
@@ -32,7 +33,7 @@ const Projects = () => {
       styleName: "adev",
       adev: true,
     },
-  ];
+  ]);
 
   return (
     <article className={classes["article-wrapper"]}>
